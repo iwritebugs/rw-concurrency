@@ -8,7 +8,7 @@ public class LockFreeSpaceship implements Spaceship {
         final Position currentPosition = position.get();
         coordinates[0] = currentPosition.getX();
         coordinates[1] = currentPosition.getY();
-        // Hi there!
+
         return 1;
     }
 
